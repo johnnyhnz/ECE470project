@@ -1,0 +1,13 @@
+material skin{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                FedEx_logo.jpg
+                scale 1000 1
+            {
+        }
+    }
+}
