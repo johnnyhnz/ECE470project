@@ -3,12 +3,9 @@ ECE 470 Project Files
 
 catkin_johnh4 is the current main project folder; named by convention of the lab manuals
 
-catkin_johnh4/build contains all of the catkin make command, needed to build the gazebo environment
-
-catkin_johnh4/devel contains all of the setup and sourcing materials for the terminal and gazebo connection
-
-catkin_johnh4/src contains the source code for the project and the python scripts
-
-catkin_johnh4/src/lab2andDriver/lab2pkg_py/scripts/project.py is the main Python script
-  this calls the project_header as well which imports necessary packages and msg data
+catkin_johnh4/src/lab2andDriver/lab2pkg_py/scripts/project.py is the main Python script this calls the project_header as well which imports necessary packages,messages, and other functions like the spawn function that creates the blocks in the simulation
+  
+Running the project.py script while having the lab2pkg_py folder will run the project
+  
+ur_description contatins the modified URDF files used in the simluation
   
